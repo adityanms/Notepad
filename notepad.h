@@ -5,11 +5,7 @@ class notepad : public QMainWindow
   Q_OBJECT;
 public:
   notepad();
-  private slots:
-      void open();
-      void save();
-      void Quit();
-private:
+  private:
       QTextEdit *tEditor;
       QPushButton *quitButton;
 
@@ -18,4 +14,9 @@ private:
       QAction *quitAction;
 
       QMenu *fileMenu;
+  private slots:
+      void open();
+      void save();
+      void Quit();
+
 };
