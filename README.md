@@ -18,4 +18,7 @@ The notepad class has the following slots.
       void open();
       void save();
       void Quit();
+      
+M.S.Adityan
+www.msadityan.com
 
