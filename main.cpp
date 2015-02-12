@@ -1,5 +1,6 @@
 // A simple notepad written in C++ by M.S.Adityan
 // This application is capable of opening, closing and saving files. 
+// www.msadityan.com
 
 #include "notepad.h"
 
